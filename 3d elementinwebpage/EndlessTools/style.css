@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.lft p{
+font-size: 10px;
+color: white;
+}
+
+
+.lft,.rght{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border: none;
+    color: white;
+}
+iframe{
+    width: 50%;
+    height: 50%;
+    border: none;
+}
+
+.top iframe{
+    height: 50%;
+    width: 50%;
+}
+
+
+
